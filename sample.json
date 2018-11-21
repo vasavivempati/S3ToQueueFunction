@@ -1,0 +1,39 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.0",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2018-09-24T21:15:10.404Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDAIZOCLK4FV5VVQLULK"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "70.90.214.57"
+      },
+      "responseElements": {
+        "x-amz-request-id": "915BAA865A1F12D1",
+        "x-amz-id-2": "QNnAHIOJAOUq25d9ah/95ZHHh8T4KGNhRXA+UMTXFMBoe1FnTCatCFg0obm9wLPbdxlm6tnSDdI="
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "PutEvent",
+        "bucket": {
+          "name": "fandor-reach-engine-integration",
+          "ownerIdentity": {
+            "principalId": "A2054RUUQWSGIF"
+          },
+          "arn": "arn:aws:s3:::fandor-reach-engine-integration"
+        },
+        "object": {
+          "key": "1.json",
+          "size": 1978,
+          "eTag": "9d37bcca2548dbfd34432a4ec37c8e7d",
+          "versionId": "H3HgrvIOzEVbCvdQkK3U6CWvhsEY2vx8",
+          "sequencer": "005BA953DE52E9AE94"
+        }
+      }
+    }
+  ]
+}

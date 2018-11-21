@@ -1,0 +1,22 @@
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+ *.iml
+ modules.xml
+ *.ipr
+
+### Gradle ###
+.gradle
+/build/
+
+### .idea ##
+.idea
+
+##.DS_Store##
+**/.DS_Store
